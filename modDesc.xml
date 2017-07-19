@@ -10,6 +10,7 @@
         <fr>Seasons Geo: Snowy Lands</fr>
         <ru>Seasons Geo: Snowy Lands</ru>
         <nl>Seasons Geo: Snowy Lands</nl>
+        <hu>Seasons Geo: Snowy Lands</hu>
     </title>
 
     <description>
@@ -42,9 +43,12 @@ Snowy Lands is een GEO mod die eeuwige winter en hoge sneeuw heeft. Rijd rond in
 
     <multiplayer supported="true"/>
 
-    <l10n filenamePrefix="translations/translation"/>
-
     <extraSourceFiles>
-        <sourceFile filename="src/loader.lua"/>
+        <sourceFile filename="src/main.lua"/>
     </extraSourceFiles>
+
+    <seasons version="2">
+        <type>geo</type>
+        <dataFolder>data/</dataFolder>
+    </seasons>
 </modDesc>
